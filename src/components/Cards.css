@@ -1,0 +1,44 @@
+
+  .header-content {
+    display: flex;
+    height: 100px;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: left;
+    margin-left: 100px;
+    font-size: 50px;
+    color: rgb(50, 100, 150);
+    text-shadow: -15px -30px 3px #e0e0e0;
+  }
+  
+  .cards {
+    width: 98vw;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items {
+      display: flex;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+    @media only screen and (max-width: 850px) {
+      h1 {
+        margin-left: 50px;
+        font-size: 40px;
+        text-shadow: -12px -25px 3px #e0e0e0;
+      }
+    }
+  }

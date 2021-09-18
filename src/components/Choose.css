@@ -1,0 +1,124 @@
+.choose-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+}
+
+.choose-header {
+    display: flex;
+    width: 100%;
+    height: 180px;
+}
+  
+.choose-header h1 {
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 50px;
+    color: rgb(50, 100, 150);
+    text-shadow: -15px -30px 3px #e0e0e0;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.choose-header h1:after {
+    background-color: rgb(130, 130, 130);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: 30px;
+    width: 54vw;
+}
+
+.choose-header h1:after {
+    left: 0.9em;
+    margin-right: -70%;
+}
+
+.choose-description {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.choose-description p {
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    margin-left: 85px;
+    margin-right: 85px;
+    color: rgb(130, 130, 130);
+}
+
+.choose-body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(50, 100, 150);
+    background-image: url('../Home_stuffs/WhyChooseUs/line.png');
+    background-size: 100% 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.choose-image-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-left: 50px;
+    height: 100%;
+    width: 430px;
+}
+
+.choose-image-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    height: 100%;
+    width: 336px;
+}
+
+.choose-image-box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    height: 100%;
+    width: 335px;
+}
+
+.choose-image-box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-right: 50px;
+    height: 100%;
+    width: 420px;
+}
+
+.choose-image-container {
+    display: flex;
+    height: 100px;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose-image-title {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-image-title h1 {
+    font-size: 18PX;
+    text-align: center;
+    color: white;
+}

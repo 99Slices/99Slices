@@ -1,0 +1,190 @@
+.values-container {
+    height: fit-content;
+    background-color: white;
+    padding: 40px;
+}
+
+.values-header {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.values-image-box {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.values-image-box img {
+    height: 40%;
+}
+
+.values-header .values-image-box {
+    height: 100%;
+    width: 33%;
+}
+
+.values-header .values-image-box:before,
+.values-header .values-image-box:after {
+    background-color: rgb(130, 130, 130);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.values-header .values-image-box:before {
+    right: 1.7em;
+    margin-left: -80%;
+}
+
+.values-header .values-image-box:after {
+    left: 1.7em;
+    margin-right: -80%;
+}
+
+.values-box {
+    display: block;
+    height: 100%;
+    margin-inline: 65px;
+}
+
+.values-description-box {
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    align-items: center;
+}
+
+.values-description-box p{
+    width: 100%;
+    height: 100%;
+    padding: 70px;
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+.values-row1 {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px;
+}
+
+.values-row2 {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 100px;
+}
+
+.vission-box {
+    display: block;
+    height: 100%;
+    width: 50%;
+    padding-top: 40px;
+}
+
+.border-middle-top {
+    border-left: 3px solid rgb(130, 130, 130);
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.mission-box {
+    display: block;
+    height: 100%;
+    width: 50%;
+    padding-top: 40px;
+}
+
+.goals-box {
+    display: block;
+    height: 100%;
+    width: 50%;
+    padding-top: 40px;
+    border-top: 3px solid rgb(130, 130, 130);
+    margin-right: 40px;
+}
+
+.border-middle-bottom {
+    border-left: 3px solid rgb(130, 130, 130);
+    position: relative;
+    margin-top: 40px;
+}
+
+.process-box {
+    display: block;
+    height: 100%;
+    width: 50%;
+    padding-top: 40px;
+    border-top: 3px solid rgb(130, 130, 130);
+    margin-left: 40px;
+}
+
+.values-header-type1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+}
+
+.values-header-type1 h1 {
+    width: 100%;
+    color: rgb(50, 100, 150);
+    text-align: left;
+}
+
+.values-description-type1 {
+    padding-top: 50px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    height: fit-content;
+}
+
+.values-description-type1 p {
+    width: 100%;
+    text-align: justify;
+    line-height: 1.6;
+    letter-spacing: 1.3px;
+}
+
+.values-header-type2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    
+}
+
+.values-header-type2 h1 {
+    width: 100%;
+    color: rgb(50, 100, 150);
+    text-align: right;
+}
+
+.values-description-type2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    height: fit-content;
+}
+
+.values-description-type2 p {
+    width: 100%;
+    text-align: justify;
+    line-height: 1.6;
+    letter-spacing: 1.3px;
+    direction: rtl;
+}

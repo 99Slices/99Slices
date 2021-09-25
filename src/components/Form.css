@@ -15,7 +15,7 @@
 
 .form-wrapper {
     width: 90%;
-    height: 80%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     padding: 40px 100px;

@@ -15,13 +15,6 @@ function Projects() {
   return (
     <>
       <Navbar_Projects />
-      {/* <Cards />
-      <HeroSection />
-      <Choose />
-      <Project />
-      <Progress />
-      <Video />
-      <Form /> */}
       <Footer />
     </>
   );

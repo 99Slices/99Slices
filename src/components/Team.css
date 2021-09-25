@@ -1,0 +1,123 @@
+.team-container {
+  height: fit-content;
+  background-color: white;
+  padding-block: 40px;
+  padding-inline: 85px;
+}
+
+.team-header {
+  height: fit-content;
+  width: 100%;
+  align-items: center;
+}
+
+.team-header h1{
+  overflow-x: hidden;
+  color: rgb(50, 100, 150);
+  font-size: 50px;
+  text-shadow: -15px -30px 3px #e0e0e0;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding-top: 30px;
+}
+
+.team-header h1:before,
+.team-header h1:after {
+  background-color: rgb(130, 130, 130);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: 30px;
+  width: 50%;
+}
+
+.team-header h1:before {
+  right: 0.9em;
+  margin-left: -70%;
+}
+
+.team-header h1:after {
+  left: 0.9em;
+  margin-right: -70%;
+}
+
+.team-body {
+  display: flex;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  height: fit-content;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.team-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  transition: all 0.5s ease-out;
+}
+
+.team-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+}
+
+.team-image {
+  padding: 40px;
+}
+
+.team-card h1 {
+  font-size: 20px;
+  font-family: Oswald;
+  letter-spacing: 1.5px;
+  color: rgb(50, 100, 150);
+}
+
+.team-card p {
+  padding-top: 18px;
+  color: rgb(130, 130, 130);
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.team-social {
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.team-social a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  margin-inline: 1.2rem;
+}
+
+.team-contact button {
+  font-family: 'ProximaNova';
+  letter-spacing: 1px;
+  font-weight: lighter;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  background-color: rgb(50, 100, 150);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transition: all 1s ease-out;
+}
+
+.team-contact button:hover, .team-contact a:hover {
+  background-color: rgb(79, 147, 216);
+}
